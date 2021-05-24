@@ -16,7 +16,7 @@
 Daniel wellington is a serverless lambda function which runs to get the products of daniel wellington and serves as an api.
 This application processes events from an API Gateway REST API. The API provides a public endpoint that you can access with a web browser or other HTTP client. When you send a request to the endpoint, the API serializes the request and sends it to the function. The function calls the Lambda API to get utilization data and returns it to the API in the required format.
 
-![Architecture](/images/sample-nodejs-apig.png)
+![Architecture](/Daniel-wellington/images/sample-nodejs-apig.png)
 
 ## Requirements
 
@@ -54,7 +54,7 @@ Used An AWS API GATEWAY to create resources and methods which triggers a lambda
 
 ```
 
-[APIG URL](https://fzfelchqjd.execute-api.us-east-2.amazonaws.com/dev)
+APIG URL - https://fzfelchqjd.execute-api.us-east-2.amazonaws.com/dev
 
 ## API DOCUMENTATION
 
@@ -67,6 +67,7 @@ Used two forms of API Documentation
 ```
 
 [SWAGGER URL](https://app.swaggerhub.com/apis/karthick.taker/DW-products/1.0.0)
+
 [POSTMAN COLLECTION](https://documenter.getpostman.com/view/14735151/TzXunKZh)
 
 ## SERVICE TO GET ALL THE PRODUCTS IN DW ASSIGNMNENT URL
